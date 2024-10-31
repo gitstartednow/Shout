@@ -46,6 +46,15 @@ final class AppData {
         }
     }
 
+    var selectedColorIndex: Int {
+        get {
+            return UserDefaults.standard.integer(forKey: "selectedColorIndex")
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "selectedColorIndex")
+        }
+    }
+
     var defaultMessage: String {
         "\(selectedNumOfUnits) \(selectedDistanceMeasurementType.displayName)!"
     }

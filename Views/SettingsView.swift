@@ -18,6 +18,10 @@ struct SettingsView: View {
             NavigationLink(destination: LanguageTypePickerView()) {
                 Text("Pick Language")
             }
+            // TODO: Implement Color Pallete selection
+//            NavigationLink(destination: ColorPickerView()) {
+//                Text("Pick Color")
+//            }
         }
     }
 }

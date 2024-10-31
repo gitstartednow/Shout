@@ -13,9 +13,9 @@ struct ContentView: View {
             NavigationLink(destination: ShoutView()) {
                 Text("Shout")
             }
-
-         
         }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+        .background(Color.primaryOrange)
     }
 }
 
