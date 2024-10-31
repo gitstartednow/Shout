@@ -1,21 +1,28 @@
 import SwiftUI
 import Observation
+import Shimmer
 
 struct ContentView: View {
     @Environment(\.appData) var appData
 
     var body: some View {
         VStack {
-            NavigationLink(destination: SettingsView()) {
-                Text("Settings")
-            }
-
-            NavigationLink(destination: ShoutView()) {
+            VStack {
                 Text("Shout")
+                    .font(.title)
+                    .fontWeight(.heavy)
+                    .shimmering()
+            }
+            ScrollView {
+                NavigationLink(destination: ShoutView()) {
+                    Text("Shout")
+                }
+
+                NavigationLink(destination: SettingsView()) {
+                    Text("Settings")
+                }
             }
         }
-        .frame(maxWidth: .infinity, maxHeight: .infinity)
-        .background(Color.primaryOrange)
     }
 }
 

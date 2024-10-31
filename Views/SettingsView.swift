@@ -4,19 +4,19 @@ struct SettingsView: View {
     var body: some View {
         ScrollView {
             NavigationLink(destination: DistancePickerView()) {
-                Text("Pick Distance")
+                Text("Distance")
             }
 
             NavigationLink(destination: TimerPickerView()) {
-                Text("Pick Timer")
+                Text("Timer")
             }
 
             NavigationLink(destination: DistanceMeasurementPickerView()) {
-                Text("Pick Measurement")
+                Text("Measurement")
             }
 
             NavigationLink(destination: LanguageTypePickerView()) {
-                Text("Pick Language")
+                Text("Language")
             }
             // TODO: Implement Color Pallete selection
 //            NavigationLink(destination: ColorPickerView()) {

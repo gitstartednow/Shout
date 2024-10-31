@@ -1,31 +1,42 @@
-//
-//  ShoutView 2.swift
-//  Shout
-//
-//  Created by Don Mallow on 10/31/24.
-//
-
-
 import SwiftUI
 
 struct ShoutView: View {
     @Environment(\.appData) var appData
     @Environment(\.speechSynthesizerManager) var speechSynthesizerManager
 
-    var body: some View {
-        Button {
-            Task {
-                // Sleep for the specified countdown time in seconds, converted to nanoseconds
-                try await Task.sleep(nanoseconds: UInt64(appData.selectedCountdownSeconds) * 1_000_000_000)
+    @State private var isShoutDisabled: Bool = false
 
-                // Call startSpeaking with the message and parameters from appData
-                await speechSynthesizerManager.startSpeaking(
-                    appData.defaultMessage,
-                    language: appData.selectedLanguageType.rawValue
-                )
+    var body: some View {
+        VStack {
+            Spacer()
+
+            Button {
+                isShoutDisabled = true
+
+                Task {
+                    // Sleep for the specified countdown time in seconds, converted to nanoseconds
+                    try await Task.sleep(nanoseconds: UInt64(appData.selectedCountdownSeconds) * 1_000_000_000)
+
+                    // Call startSpeaking with the message and parameters from appData
+                    await speechSynthesizerManager.startSpeaking(
+                        appData.defaultMessage,
+                        language: appData.selectedLanguageType.rawValue
+                    )
+
+                    // Re-enable the button after the task completes
+                    isShoutDisabled = false
+                }
+            } label: {
+                Text("Shout It")
             }
-        } label: {
-            Text("Shout")
+            .disabled(isShoutDisabled)
+
+            Spacer()
+
+            Toggle(isShoutDisabled ? "Enable" : "Disable", isOn: $isShoutDisabled)
+                .padding()
+
+            Spacer()
         }
     }
 }
