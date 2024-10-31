@@ -1,11 +1,3 @@
-//
-//  ShoutView 2.swift
-//  Shout
-//
-//  Created by Don Mallow on 10/31/24.
-//
-
-
 import SwiftUI
 
 struct ShoutView: View {
