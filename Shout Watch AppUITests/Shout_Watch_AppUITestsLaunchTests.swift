@@ -1,3 +1,4 @@
+// swiftlint: disable
 import XCTest
 
 final class Shout_Watch_AppUITestsLaunchTests: XCTestCase {
@@ -24,3 +25,4 @@ final class Shout_Watch_AppUITestsLaunchTests: XCTestCase {
         add(attachment)
     }
 }
+// swiftlint: enable

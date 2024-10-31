@@ -16,8 +16,6 @@ struct DistanceMeasurementPickerView: View {
                 }
             }
             .pickerStyle(.wheel)
-//            .frame(maxWidth: .infinity, maxHeight: .infinity)
-
         }
         .onChange(of: selectedDistanceMeasurementType) { oldValue, newValue in
             if oldValue != newValue {

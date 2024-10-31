@@ -1,3 +1,4 @@
+// swiftlint: disable
 import Testing
 @testable import Shout_Watch_App
 
@@ -8,3 +9,4 @@ struct Shout_Watch_AppTests {
     }
 
 }
+// swiftlint: enable
