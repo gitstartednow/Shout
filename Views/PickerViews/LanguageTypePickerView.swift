@@ -7,7 +7,7 @@ struct LanguageTypePickerView: View {
     var body: some View {
         VStack {
             Text("Selected Language")
-            Text(appData.selectedLanguageType.displayName)
+            Text(selectedLanguageType.displayName)
                 .bold()
             Picker("", selection: $selectedLanguageType) {
                 ForEach(LanguageTypeEnum.allCases) { languageType in
@@ -16,13 +16,11 @@ struct LanguageTypePickerView: View {
             }
             .pickerStyle(.wheel)
         }
-        .onChange(of: selectedLanguageType) { oldValue, newValue in
-            if oldValue != newValue {
-                appData.selectedLanguageType = newValue
-            }
-        }
         .onAppear {
             selectedLanguageType = appData.selectedLanguageType
+        }
+        .onDisappear {
+            appData.selectedLanguageType = selectedLanguageType
         }
     }
 }
