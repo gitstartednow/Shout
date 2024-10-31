@@ -7,6 +7,10 @@ struct SettingsView: View {
                 Text("Pick Distance")
             }
 
+            NavigationLink(destination: TimerPickerView()) {
+                Text("Pick Timer")
+            }
+
             NavigationLink(destination: DistanceMeasurementPickerView()) {
                 Text("Pick Measurement")
             }

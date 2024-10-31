@@ -18,6 +18,7 @@
 		323D7A4D2CD3E9A300BB8523 /* LanguageTypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */; };
 		323D7A4F2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */; };
 		323D7A522CD3F2CC00BB8523 /* DistancePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */; };
+		32F560B42CD418C600BA244E /* TimerPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32F560B32CD418C600BA244E /* TimerPickerView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -73,6 +74,7 @@
 		323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTypePickerView.swift; sourceTree = "<group>"; };
 		323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurementPickerView.swift; sourceTree = "<group>"; };
 		323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancePickerView.swift; sourceTree = "<group>"; };
+		32F560B32CD418C600BA244E /* TimerPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerPickerView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -183,6 +185,7 @@
 			isa = PBXGroup;
 			children = (
 				323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */,
+				32F560B32CD418C600BA244E /* TimerPickerView.swift */,
 				323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */,
 				323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */,
 			);
@@ -391,6 +394,7 @@
 				323D7A522CD3F2CC00BB8523 /* DistancePickerView.swift in Sources */,
 				323D7A3D2CD3DC5000BB8523 /* SettingsView.swift in Sources */,
 				323D7A4F2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift in Sources */,
+				32F560B42CD418C600BA244E /* TimerPickerView.swift in Sources */,
 				323D7A4B2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift in Sources */,
 				323D7A112CD3CFB200BB8523 /* ContentView.swift in Sources */,
 				323D7A4D2CD3E9A300BB8523 /* LanguageTypePickerView.swift in Sources */,

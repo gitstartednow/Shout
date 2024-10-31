@@ -1,14 +1,51 @@
 import SwiftUI
 import Observation
-import SwiftData
 
 @Observable
 final class AppData {
     var navPath = NavigationPath()
 
-    var selectedNumOfUnits = 10
-    var selectedLanguageType: LanguageTypeEnum = .americanEnglish
-    var selectedDistanceMeasurementType: DistanceMeasurementTypeEnum = .miles
+    // Initialize from UserDefaults or set default values
+    var selectedNumOfUnits: Int {
+        get { UserDefaults.standard.integer(forKey: "selectedNumOfUnits") }
+        set { UserDefaults.standard.set(newValue, forKey: "selectedNumOfUnits") }
+    }
+
+    var selectedCountdownSeconds: Int {
+        get {
+            return UserDefaults.standard.integer(forKey: "selectedCountdownSeconds")
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "selectedCountdownSeconds")
+        }
+    }
+
+    var selectedDistanceMeasurementType: DistanceMeasurementTypeEnum {
+        get {
+            if let savedValue = UserDefaults.standard.string(forKey: "selectedDistanceMeasurementType"),
+               let type = DistanceMeasurementTypeEnum(rawValue: savedValue) {
+                return type
+            }
+            return .miles // Default value
+        }
+        set {
+            UserDefaults.standard.set(newValue.rawValue, forKey: "selectedDistanceMeasurementType")
+        }
+    }
+
+    var selectedLanguageType: LanguageTypeEnum {
+        get {
+            if let savedValue = UserDefaults.standard.string(forKey: "selectedLanguageType"),
+               let type = LanguageTypeEnum(rawValue: savedValue) {
+                return type
+            }
+            return .americanEnglish // Default value
+        }
+        set {
+            UserDefaults.standard.set(newValue.rawValue, forKey: "selectedLanguageType")
+        }
+    }
+
     var defaultMessage: String {
         "\(selectedNumOfUnits) \(selectedDistanceMeasurementType.displayName)!"
     }

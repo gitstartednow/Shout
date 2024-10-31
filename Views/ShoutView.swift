@@ -1,3 +1,11 @@
+//
+//  ShoutView 2.swift
+//  Shout
+//
+//  Created by Don Mallow on 10/31/24.
+//
+
+
 import SwiftUI
 
 struct ShoutView: View {
@@ -7,9 +15,14 @@ struct ShoutView: View {
     var body: some View {
         Button {
             Task {
+                // Sleep for the specified countdown time in seconds, converted to nanoseconds
+                try await Task.sleep(nanoseconds: UInt64(appData.selectedCountdownSeconds) * 1_000_000_000)
+
+                // Call startSpeaking with the message and parameters from appData
                 await speechSynthesizerManager.startSpeaking(
                     appData.defaultMessage,
-                    language: appData.selectedLanguageType.rawValue)
+                    language: appData.selectedLanguageType.rawValue
+                )
             }
         } label: {
             Text("Shout")
