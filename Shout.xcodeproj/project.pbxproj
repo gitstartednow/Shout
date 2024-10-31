@@ -1,0 +1,753 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		323D7A0A2CD3CFB200BB8523 /* Shout Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 323D7A092CD3CFB200BB8523 /* Shout Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		323D7A112CD3CFB200BB8523 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A102CD3CFB200BB8523 /* ContentView.swift */; };
+		323D7A3D2CD3DC5000BB8523 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A3C2CD3DC5000BB8523 /* SettingsView.swift */; };
+		323D7A3F2CD3DC8700BB8523 /* ShoutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A3E2CD3DC8700BB8523 /* ShoutView.swift */; };
+		323D7A412CD3DCAA00BB8523 /* SpeechSynthesizerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A402CD3DCAA00BB8523 /* SpeechSynthesizerManager.swift */; };
+		323D7A432CD3DD4B00BB8523 /* ApplicationData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A422CD3DD4B00BB8523 /* ApplicationData.swift */; };
+		323D7A492CD3DF2000BB8523 /* LanguageTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A482CD3DF2000BB8523 /* LanguageTypeEnum.swift */; };
+		323D7A4B2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A4A2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift */; };
+		323D7A4D2CD3E9A300BB8523 /* LanguageTypePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */; };
+		323D7A4F2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */; };
+		323D7A522CD3F2CC00BB8523 /* DistancePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		323D7A0B2CD3CFB200BB8523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323D79FD2CD3CFB200BB8523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323D7A082CD3CFB200BB8523;
+			remoteInfo = "Shout Watch App";
+		};
+		323D7A1C2CD3CFB400BB8523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323D79FD2CD3CFB200BB8523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323D7A082CD3CFB200BB8523;
+			remoteInfo = "Shout Watch App";
+		};
+		323D7A262CD3CFB400BB8523 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 323D79FD2CD3CFB200BB8523 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 323D7A082CD3CFB200BB8523;
+			remoteInfo = "Shout Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		323D7A322CD3CFB400BB8523 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				323D7A0A2CD3CFB200BB8523 /* Shout Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		323D7A032CD3CFB200BB8523 /* Shout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Shout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D7A092CD3CFB200BB8523 /* Shout Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Shout Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D7A102CD3CFB200BB8523 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		323D7A1B2CD3CFB400BB8523 /* Shout Watch AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shout Watch AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D7A252CD3CFB400BB8523 /* Shout Watch AppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Shout Watch AppUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		323D7A3C2CD3DC5000BB8523 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		323D7A3E2CD3DC8700BB8523 /* ShoutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoutView.swift; sourceTree = "<group>"; };
+		323D7A402CD3DCAA00BB8523 /* SpeechSynthesizerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpeechSynthesizerManager.swift; sourceTree = "<group>"; };
+		323D7A422CD3DD4B00BB8523 /* ApplicationData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplicationData.swift; sourceTree = "<group>"; };
+		323D7A482CD3DF2000BB8523 /* LanguageTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTypeEnum.swift; sourceTree = "<group>"; };
+		323D7A4A2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurementTypeEnum.swift; sourceTree = "<group>"; };
+		323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LanguageTypePickerView.swift; sourceTree = "<group>"; };
+		323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistanceMeasurementPickerView.swift; sourceTree = "<group>"; };
+		323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DistancePickerView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		323D7A0D2CD3CFB200BB8523 /* Shout Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shout Watch App";
+			sourceTree = "<group>";
+		};
+		323D7A1E2CD3CFB400BB8523 /* Shout Watch AppTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shout Watch AppTests";
+			sourceTree = "<group>";
+		};
+		323D7A282CD3CFB400BB8523 /* Shout Watch AppUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "Shout Watch AppUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		323D7A062CD3CFB200BB8523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A182CD3CFB400BB8523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A222CD3CFB400BB8523 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		323D79FC2CD3CFB200BB8523 = {
+			isa = PBXGroup;
+			children = (
+				323D7A472CD3DF0E00BB8523 /* Enums */,
+				323D7A442CD3DD8500BB8523 /* Views */,
+				323D7A462CD3DDA700BB8523 /* Data */,
+				323D7A452CD3DD9A00BB8523 /* Managers */,
+				323D7A0D2CD3CFB200BB8523 /* Shout Watch App */,
+				323D7A1E2CD3CFB400BB8523 /* Shout Watch AppTests */,
+				323D7A282CD3CFB400BB8523 /* Shout Watch AppUITests */,
+				323D7A042CD3CFB200BB8523 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		323D7A042CD3CFB200BB8523 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A032CD3CFB200BB8523 /* Shout.app */,
+				323D7A092CD3CFB200BB8523 /* Shout Watch App.app */,
+				323D7A1B2CD3CFB400BB8523 /* Shout Watch AppTests.xctest */,
+				323D7A252CD3CFB400BB8523 /* Shout Watch AppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		323D7A442CD3DD8500BB8523 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A102CD3CFB200BB8523 /* ContentView.swift */,
+				323D7A3E2CD3DC8700BB8523 /* ShoutView.swift */,
+				323D7A3C2CD3DC5000BB8523 /* SettingsView.swift */,
+				323D7A502CD3EDB700BB8523 /* PickerViews */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		323D7A452CD3DD9A00BB8523 /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A402CD3DCAA00BB8523 /* SpeechSynthesizerManager.swift */,
+			);
+			path = Managers;
+			sourceTree = "<group>";
+		};
+		323D7A462CD3DDA700BB8523 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A422CD3DD4B00BB8523 /* ApplicationData.swift */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		323D7A472CD3DF0E00BB8523 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A482CD3DF2000BB8523 /* LanguageTypeEnum.swift */,
+				323D7A4A2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		323D7A502CD3EDB700BB8523 /* PickerViews */ = {
+			isa = PBXGroup;
+			children = (
+				323D7A4E2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift */,
+				323D7A512CD3F2CC00BB8523 /* DistancePickerView.swift */,
+				323D7A4C2CD3E9A300BB8523 /* LanguageTypePickerView.swift */,
+			);
+			path = PickerViews;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		323D7A022CD3CFB200BB8523 /* Shout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D7A332CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout" */;
+			buildPhases = (
+				323D7A012CD3CFB200BB8523 /* Resources */,
+				323D7A322CD3CFB400BB8523 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323D7A0C2CD3CFB200BB8523 /* PBXTargetDependency */,
+			);
+			name = Shout;
+			packageProductDependencies = (
+			);
+			productName = Shout;
+			productReference = 323D7A032CD3CFB200BB8523 /* Shout.app */;
+			productType = "com.apple.product-type.application.watchapp2-container";
+		};
+		323D7A082CD3CFB200BB8523 /* Shout Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D7A2F2CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch App" */;
+			buildPhases = (
+				323D7A052CD3CFB200BB8523 /* Sources */,
+				323D7A062CD3CFB200BB8523 /* Frameworks */,
+				323D7A072CD3CFB200BB8523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				323D7A0D2CD3CFB200BB8523 /* Shout Watch App */,
+			);
+			name = "Shout Watch App";
+			packageProductDependencies = (
+			);
+			productName = "Shout Watch App";
+			productReference = 323D7A092CD3CFB200BB8523 /* Shout Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		323D7A1A2CD3CFB400BB8523 /* Shout Watch AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D7A362CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch AppTests" */;
+			buildPhases = (
+				323D7A172CD3CFB400BB8523 /* Sources */,
+				323D7A182CD3CFB400BB8523 /* Frameworks */,
+				323D7A192CD3CFB400BB8523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323D7A1D2CD3CFB400BB8523 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				323D7A1E2CD3CFB400BB8523 /* Shout Watch AppTests */,
+			);
+			name = "Shout Watch AppTests";
+			packageProductDependencies = (
+			);
+			productName = "Shout Watch AppTests";
+			productReference = 323D7A1B2CD3CFB400BB8523 /* Shout Watch AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		323D7A242CD3CFB400BB8523 /* Shout Watch AppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 323D7A392CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch AppUITests" */;
+			buildPhases = (
+				323D7A212CD3CFB400BB8523 /* Sources */,
+				323D7A222CD3CFB400BB8523 /* Frameworks */,
+				323D7A232CD3CFB400BB8523 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				323D7A272CD3CFB400BB8523 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				323D7A282CD3CFB400BB8523 /* Shout Watch AppUITests */,
+			);
+			name = "Shout Watch AppUITests";
+			packageProductDependencies = (
+			);
+			productName = "Shout Watch AppUITests";
+			productReference = 323D7A252CD3CFB400BB8523 /* Shout Watch AppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		323D79FD2CD3CFB200BB8523 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1610;
+				LastUpgradeCheck = 1610;
+				TargetAttributes = {
+					323D7A022CD3CFB200BB8523 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					323D7A082CD3CFB200BB8523 = {
+						CreatedOnToolsVersion = 16.1;
+					};
+					323D7A1A2CD3CFB400BB8523 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 323D7A082CD3CFB200BB8523;
+					};
+					323D7A242CD3CFB400BB8523 = {
+						CreatedOnToolsVersion = 16.1;
+						TestTargetID = 323D7A082CD3CFB200BB8523;
+					};
+				};
+			};
+			buildConfigurationList = 323D7A002CD3CFB200BB8523 /* Build configuration list for PBXProject "Shout" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 323D79FC2CD3CFB200BB8523;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 323D7A042CD3CFB200BB8523 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				323D7A022CD3CFB200BB8523 /* Shout */,
+				323D7A082CD3CFB200BB8523 /* Shout Watch App */,
+				323D7A1A2CD3CFB400BB8523 /* Shout Watch AppTests */,
+				323D7A242CD3CFB400BB8523 /* Shout Watch AppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		323D7A012CD3CFB200BB8523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A072CD3CFB200BB8523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A192CD3CFB400BB8523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A232CD3CFB400BB8523 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		323D7A052CD3CFB200BB8523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				323D7A432CD3DD4B00BB8523 /* ApplicationData.swift in Sources */,
+				323D7A3F2CD3DC8700BB8523 /* ShoutView.swift in Sources */,
+				323D7A522CD3F2CC00BB8523 /* DistancePickerView.swift in Sources */,
+				323D7A3D2CD3DC5000BB8523 /* SettingsView.swift in Sources */,
+				323D7A4F2CD3ED9B00BB8523 /* DistanceMeasurementPickerView.swift in Sources */,
+				323D7A4B2CD3DFD900BB8523 /* DistanceMeasurementTypeEnum.swift in Sources */,
+				323D7A112CD3CFB200BB8523 /* ContentView.swift in Sources */,
+				323D7A4D2CD3E9A300BB8523 /* LanguageTypePickerView.swift in Sources */,
+				323D7A492CD3DF2000BB8523 /* LanguageTypeEnum.swift in Sources */,
+				323D7A412CD3DCAA00BB8523 /* SpeechSynthesizerManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A172CD3CFB400BB8523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		323D7A212CD3CFB400BB8523 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		323D7A0C2CD3CFB200BB8523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323D7A082CD3CFB200BB8523 /* Shout Watch App */;
+			targetProxy = 323D7A0B2CD3CFB200BB8523 /* PBXContainerItemProxy */;
+		};
+		323D7A1D2CD3CFB400BB8523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323D7A082CD3CFB200BB8523 /* Shout Watch App */;
+			targetProxy = 323D7A1C2CD3CFB400BB8523 /* PBXContainerItemProxy */;
+		};
+		323D7A272CD3CFB400BB8523 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 323D7A082CD3CFB200BB8523 /* Shout Watch App */;
+			targetProxy = 323D7A262CD3CFB400BB8523 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		323D7A2D2CD3CFB400BB8523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 6.0;
+			};
+			name = Debug;
+		};
+		323D7A2E2CD3CFB400BB8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_VERSION = 6.0;
+			};
+			name = Release;
+		};
+		323D7A302CD3CFB400BB8523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shout Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shout;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doradodesign.Shout.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		323D7A312CD3CFB400BB8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Shout Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = Shout;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKWatchOnly = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doradodesign.Shout.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		323D7A342CD3CFB400BB8523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				INFOPLIST_KEY_CFBundleDisplayName = Shout;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doradodesign.Shout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		323D7A352CD3CFB400BB8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				INFOPLIST_KEY_CFBundleDisplayName = Shout;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.doradodesign.Shout;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		323D7A372CD3CFB400BB8523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doradodesign.Shout-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shout Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shout Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		323D7A382CD3CFB400BB8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doradodesign.Shout-Watch-AppTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Shout Watch App.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Shout Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+		323D7A3A2CD3CFB400BB8523 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doradodesign.Shout-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Shout Watch App";
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Debug;
+		};
+		323D7A3B2CD3CFB400BB8523 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = U8K3QMS737;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.doradodesign.Shout-Watch-AppUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				TEST_TARGET_NAME = "Shout Watch App";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 11.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		323D7A002CD3CFB200BB8523 /* Build configuration list for PBXProject "Shout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D7A2D2CD3CFB400BB8523 /* Debug */,
+				323D7A2E2CD3CFB400BB8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323D7A2F2CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D7A302CD3CFB400BB8523 /* Debug */,
+				323D7A312CD3CFB400BB8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323D7A332CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D7A342CD3CFB400BB8523 /* Debug */,
+				323D7A352CD3CFB400BB8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323D7A362CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D7A372CD3CFB400BB8523 /* Debug */,
+				323D7A382CD3CFB400BB8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		323D7A392CD3CFB400BB8523 /* Build configuration list for PBXNativeTarget "Shout Watch AppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				323D7A3A2CD3CFB400BB8523 /* Debug */,
+				323D7A3B2CD3CFB400BB8523 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 323D79FD2CD3CFB200BB8523 /* Project object */;
+}
