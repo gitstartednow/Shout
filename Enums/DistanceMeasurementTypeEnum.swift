@@ -23,4 +23,3 @@ enum DistanceMeasurementTypeEnum: String, CaseIterable, Identifiable, Codable, H
         }
     }
 }
-

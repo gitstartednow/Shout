@@ -46,15 +46,26 @@ final class AppData {
         }
     }
 
-    var selectedColorIndex: Int {
+    // Store selected color names as strings
+    var selectedBackgroundColorName: String {
         get {
-            return UserDefaults.standard.integer(forKey: "selectedColorIndex")
+            return UserDefaults.standard.string(forKey: "selectedBackgroundColorName") ?? "none"
         }
         set {
-            UserDefaults.standard.set(newValue, forKey: "selectedColorIndex")
+            UserDefaults.standard.set(newValue, forKey: "selectedBackgroundColorName")
         }
     }
 
+    var selectedButtonColorName: String {  // Corrected to use String for color name consistency
+        get {
+            return UserDefaults.standard.string(forKey: "selectedButtonColorName") ?? "none" // Ensure correct key is used
+        }
+        set {
+            UserDefaults.standard.set(newValue, forKey: "selectedButtonColorName") // Ensure correct key is used
+        }
+    }
+
+    // Construct default message based on units and measurement type
     var defaultMessage: String {
         "\(selectedNumOfUnits) \(selectedDistanceMeasurementType.displayName)!"
     }

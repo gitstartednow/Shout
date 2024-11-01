@@ -11,6 +11,7 @@ struct ContentView: View {
                 Text("Shout")
                     .font(.title)
                     .fontWeight(.heavy)
+                    .foregroundStyle(.primaryOrange)
                     .shimmering()
             }
             ScrollView {

@@ -1,11 +1,13 @@
 import SwiftUI
 
 struct SettingsView: View {
+    @Environment(\.appData) var appData
     var body: some View {
         ScrollView {
             NavigationLink(destination: DistancePickerView()) {
                 Text("Distance")
             }
+            .tint(.green)
 
             NavigationLink(destination: TimerPickerView()) {
                 Text("Timer")
@@ -18,10 +20,6 @@ struct SettingsView: View {
             NavigationLink(destination: LanguageTypePickerView()) {
                 Text("Language")
             }
-            // TODO: Implement Color Pallete selection
-//            NavigationLink(destination: ColorPickerView()) {
-//                Text("Pick Color")
-//            }
         }
     }
 }
